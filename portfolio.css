@@ -14,12 +14,15 @@ h1, h2{
 .column {
     float: left;
     width: 33.33%;
+    min-width: 300px;
     padding: 5px;
 }
 .row{
     content: "";
-    display: table;
+    display: flex;
     clear: both;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .flex-container{
     display: flex;
